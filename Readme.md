@@ -1,5 +1,5 @@
 # MyMaps
- MyMaps Aplikasi ini digunakan untuk menampilkan peta sederhana, dan menemukan lokasi Anda saat ini, serta menampilkan tempat makan favorit pembuatnya. <br>
+ MyMaps Aplikasi ini digunakan untuk menampilkan peta sederhana, dan menemukan lokasi Anda saat ini, serta menampilkan tempat makan favorit. <br>
 
  Dibuat untuk memenuhi tugas AKB
  Rahmat
