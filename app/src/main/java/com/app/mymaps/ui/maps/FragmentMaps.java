@@ -97,11 +97,11 @@ public class FragmentMaps extends Fragment implements OnMapReadyCallback {
 
     private void pinLocations() {
         List<PinData> pinDataList = new ArrayList<>();
-        pinDataList.add(new PinData(new LatLng(-6.8892382,107.6173781), "Warung Nasi Ibu Iyus (Warung Nasi Langganan Best Seller)"));
-        pinDataList.add(new PinData(new LatLng(-6.8935617,107.6162598), "Bebeke Om Aris Dipatiukur (Bebek Goreng & Hidangan Tradisional lainnya)"));
-        pinDataList.add(new PinData(new LatLng(-6.8987504,107.6143801), "Gacoan Dipatiukur (Best Gacoan)"));
-        pinDataList.add(new PinData(new LatLng(-6.8951039,107.6136131), "Bebek Carok Bandung (Bebek Chuaks"));
-        pinDataList.add(new PinData(new LatLng(-6.8869326,107.6155402), "Warung Nasi SPG ( Warung Nasi Langganan kalo di Kampus )"));
+        pinDataList.add(new PinData(new LatLng(-6.8892450,107.6175460), "Warung Nasi Ibu Iyus (Warung Nasi Langganan Best Seller)"));
+        pinDataList.add(new PinData(new LatLng(-6.888940,107.618411), "Wakrop ADD (Warkop Langganan)"));
+        pinDataList.add(new PinData(new LatLng(-6.898031,107.6135153), "Gacoan Dipatiukur (Best Gacoan)"));
+        pinDataList.add(new PinData(new LatLng(-6.8965802,107.6129672), "Bebek Carok Bandung (Bebek Chuaks"));
+        pinDataList.add(new PinData(new LatLng(-6.8865605,107.6151027), "Warung Nasi SPG ( Warung Nasi Langganan kalo di Kampus )"));
 
         for (PinData pinData : pinDataList) {
             googleMap.addMarker(new MarkerOptions().position(pinData.getLatLng()).title(pinData.getTitle()));
