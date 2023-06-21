@@ -1,0 +1,17 @@
+<!--10120150 - Rahmat - IF4-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/imageViewSplash"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:src="@drawable/splash"
+        android:layout_centerInParent="true"
+        android:scaleType="centerCrop" />
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<!--10120150 - Rahmat - IF4-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pageNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Apps"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageViewPage"
+        android:layout_width="244dp"
+        android:layout_height="243dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/splash" />
+
+    <TextView
+        android:id="@+id/titleTextViewPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="MyMaps"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewPage1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="Aplikasi ini digunakan untuk menampilkan peta sederhana, dan menemukan lokasi Anda saat ini, serta menampilkan tempat makan favorit pembuatnya."
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/SwipeTextViewPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="← Swipe screen to left for back to main page"
+        android:textSize="12sp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center" />
+
+</LinearLayout>
